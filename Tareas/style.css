@@ -59,6 +59,18 @@ button:hover {
     background-color: #45a049;
 }
 
+#listaTareas{
+    margin-top: 5px;
+    background-color: rgb(0, 183, 255);
+}
+#listaTareas:hover{
+    background-color: rgb(0, 102, 255);;
+}
+#eliminarTarea, #editarTarea{
+    width: 40px;
+}
+
+
 /* Estilo para la lista de tareas */
 #ListaGeneral {
     margin-top: 20px;
