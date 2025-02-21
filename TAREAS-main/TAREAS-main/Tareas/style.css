@@ -1,0 +1,125 @@
+/* Restablecimiento de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo del contenedor principal */
+.conteiner {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo del título */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo del campo de texto para ingresar tarea */
+input#ingresarTarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#listaTareas{
+    margin-top: 5px;
+    background-color: rgb(0, 183, 255);
+}
+#listaTareas:hover{
+    background-color: rgb(0, 102, 255);;
+}
+#eliminarTarea, #editarTarea{
+    width: 40px;
+}
+
+
+/* Estilo para la lista de tareas */
+#ListaGeneral {
+    margin-top: 20px;
+}
+
+/* Estilo de cada tarea */
+.tarea {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo del texto de la tarea */
+.tarea p {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+/* Contenedor para los iconos (completar y eliminar) */
+.iconos {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilo del icono de completar (check) */
+.icono-Completar {
+    cursor: pointer;
+    font-size: 20px;
+    color: #4CAF50;
+    transition: color 0.3s ease;
+}
+
+.icono-Completar:hover {
+    color: #45a049;
+}
+
+/* Estilo del icono de eliminar (basura) */
+.icono-eliminar {
+    cursor: pointer;
+    font-size: 20px;
+    color: #f44336;
+    transition: color 0.3s ease;
+}
+
+.icono-eliminar:hover {
+    color: #d32f2f;
+}
